@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="app">
+        <label for="playerName">Nhập tên cầu thủ:</label>
+        <input type="text" id="playerName">
+
+        <button onclick="addPlayer()">Thêm cầu thủ</button>
+
+        <h2>Danh sách cầu thủ:</h2>
+        <ul id="playerList"></ul>
+
+        <label for="deletePlayerId">Nhập ID cầu thủ để xóa:</label>
+        <input type="number" id="deletePlayerId">
+
+        <button onclick="deletePlayer()">Xóa cầu thủ</button>
+    </div>
+
+    <script src="./bai3.js"></script>
+</body>
+</html>
